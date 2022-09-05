@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>doitienphire.com</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+            <script>
+                alert("Chào mừng bạn đến với doitienphire.com !");
+            </script>
+        <style>
+            *{
+                      margin: 0px;
+                      padding: 0px;
+            } 
+            #wrapper{
+                width: 1500px;
+                margin: auto;
+            }
+            #banner{
+                width: 1500px;
+                height: 120px;
+                background-color: #F39 ;
+                margin: auto;
+            }
+            #menu{
+                width: 1500px;
+                height: 50px;
+                background-color: black;
+            }
+            #menu ul{
+                margin: 0px;
+                padding: 0px;
+            }
+            #menu ul li{
+                list-style: none;
+                float: left;
+            }
+            #menu ul li a {
+                text-decoration: none;
+                display: block;
+                height: 50px;
+                line-height: 50px;
+                color:#FFF;
+                padding: 0px 20px 0px 20px;
+                border-right: 1px solid #ccc;
+            }
+            #content{
+                width: 1100px;
+                height: 500px;
+                background-color: lightyellow;
+                float: left;
+                margin: auto;
+            }
+            #right{
+                width: 400px;
+                height: 500px;
+                background-color: lightgrey;
+                float: right;
+                margin: auto;
+            }
+            
+            #footer{
+                width: 1500px;
+                height: 120px;
+                background-color: lightsalmon;
+                margin: auto;
+                clear: both;
+            }
+            table, th, td {
+              border: 1px solid red;  
+              border-collapse: collapse;  
+            }
+            th,td {
+              padding: 5px;
+
+            }
+         </style>
+         </head>
+    <script type="text/javascrpit">
+           </script>
+    <body>
+             <div id="wrapper">
+             <div  id="banner">
+                 <img src="img/banner.jpg" width="1500" height="120" />
+
+             </div>
+             <div id="menu">
+                 <ul>
+                     <li><a href="#" title="Trang chủ">Trang chủ</a></li>
+                     <li><a href="#" title="Tài khoản">Tài khoản</a></li>
+                     <li><a href="#" title="Nạp tiền">Nạp tiền</a></li>
+                     <li><a href="#" title="Hướng dẫn">Hướng dẫn</a></li>
+                     <li><a href="#" title="Lịch sử">Lịch sử</a></li>
+                     <li><a href="#" title="Đăng nhập">Đăng nhập</a></li>
+                     <li><a href="#" title="Đăng kí">Đăng kí</a></li>
+                 </ul>
+
+             </div>
+             
+             <div id="content">
+
+               <marquee><h2>-UY TÍN-CHUYÊN NGHIỆP-HIỆU QUẢ-NHANH GỌN-ĐƯA LỢI ÍCH KHÁCH HÀNG LÊN HÀNG ĐẦU-</h2></marquee> </br> </br>
+               <h3>BẢNG GIÁ PHÍ ĐỔI TIỀN CÁC VÍ ĐIỆN TỬ ATM/MOMO/TSR</h3>
+                    <table>
+                        <tr><th rowspan="2">Mệnh giá tiền</th><th colspan="3">Phí đổi TSR/MOMO/ATM về</th></tr>
+                 <tr><td>về <b>TSR</b></td><td>về <b>MOMO</b></td> <td> về <b>ATM</b></td></tr>
+                 <tr><td>1000đ -> 500.000đ</td><td>7000đ</td><td>5000đ</td><td>10000đ</td></tr>
+                 <tr><td>501.000đ -> 1.000.000đ</td><td>10.000đ</td><td>10.000đ</td><td>15.000đ</td></tr>
+                 <tr><td>1.001.000đ -> 4.000.000đ</td><td>15.000đ</td><td>15.000đ</td><td>20.000đ</td></tr>
+                 <tr><td>4.001.000đ -> 10.000.000đ</td><td>20.000đ</td><td>20.000đ</td><td>25.000đ</td></tr>
+                 <tr><td>trên 10.000.000đ</td><td>30.000đ</td><td>30.000đ</td><td>thương lượng</td></tr>
+                    </table>
+                <h3>ĐỔI TIỀN</h3> <br>
+                  <i>Từ:</i>  <select name="example">
+                    <option value="TSR">TSR</option>
+                    <option value="MOMO">MOMO</option>
+                    <option value="ATM">ATM</option>
+                  </select>
+                  <i>Sang:</i>  <select name="example">
+                    <option value="MOMO">MOMO</option>
+                    <option value="TSR">TSR</option>
+                    <option value="ATM">ATM</option>
+                  </select>   </br> <br>
+                  <label for="Giá trị">Giá trị: </label>
+                  <input type="Giá trị" size="30" placeholder="VNĐ"> <br> <br>
+                  <laber for="Kết quả">Kết quả:</laber>
+                  <input type="Kết quả" size="29" placeholder="VNĐ">
+                  <br> <br>
+                  <button name="Thực hiện" value="OK" type="button" onclick="thuchien()"><b>Thực hiện</b></button>
+                  <script>
+                    function thuchien(){
+                        alert("Đổi tiền thành công !");
+                    }
+                </script>
+                  <button name="Reset" type="reset" ><b>Reset</b></button>
+                  <button name="Quay lại" type="button"><b>Quay lại</b></button>
+             </div>
+             <div id="right"> 
+                 <br>
+                 <h3>HỖ TRỢ KHÁCH HÀNG - BÁO LỖI</h3>
+                 <label for="Đánh giá">Bạn có thường xuyên sử dụng dịch vụ không:</label>  <br>
+                 <input type="radio"   name="danhgia">Thường xuyên<br />
+                    <input type="radio"   name="danhgia">Một ngày nhiều lần<br />
+                    <input type="radio" name="danhgia">Thỉnh thoảng<br />
+                    <input type="radio"  name="danhgia">Cần mới dùng<br /> 
+                <label for="ý kiến">Đóng góp ý kiến:</label>
+                <textarea cols="45" rows="3"></textarea>
+                <button type="button" value="OK" onclick="phanhoi()"><b>Gửi phản hồi</b></button>
+                <script>
+                             function phanhoi(){
+                             alert("Đã gửi phản hồi");
+                             }
+                             </script>
+                <br><br>
+                <b>Link fb Admin</b>: <a href="https://www.facebook.com/taomanhduc23/">Click tại đây</a> <br>
+                Link fb ctv1 <b>Linh Đào</b>: <a href="https://www.facebook.com/profile.php?id=100041152688973 "> Click tại đây</a> <br>
+                Link fb ctv2 <b>Ngô Thắng</b>: <a href="https://www.facebook.com/profile.php?id=100036369911279">Click tại đây</a> <br>
+                Link fb thằng <b>Súc vật</b>: <a href="https://www.facebook.com/hungplus.2002"> Bấm vô</a>  <br>
+                Chát với Admin :
+         </div>
+
+             </div>
+             
+      </div>
+             <div  id="footer">
+                 <h3>VỀ DOITIENPHIRE.COM </h3>  </br>               
+                 <p>Chuyên cung cấp các dịch vụ đổi tiền, chuyển tiền... </p> 
+                 <p>Tin cậy uy tín hàng đầu</p> <br>
+                  
+                 <p>2021 @ Cover By <a href="https://www.facebook.com/taomanhduc23/">Admin</a></p>
+
+                 <h4>
+
+                 </h4>
+             </div>
+
+</div>
+
+     
+    </body>
+</html>
